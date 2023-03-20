@@ -1,0 +1,10 @@
+.icon-btn{
+    background-color: transparent;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid;
+}

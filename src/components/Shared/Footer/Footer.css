@@ -1,0 +1,22 @@
+footer{
+    background-color: #222831;
+    color: white;
+    min-height: 50vh;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+}
+footer img{
+    width: 25px;
+}
+footer p{
+    width: 50%;
+}
+footer .socal-icon-container{
+    display: flex;
+    gap: 10px;
+}
