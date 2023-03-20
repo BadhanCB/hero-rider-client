@@ -1,0 +1,57 @@
+#banner {
+    min-height: calc(100vh - 68px);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)),
+        url("../../../assets/images/banner.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 1rem;
+}
+#banner button {
+    font-size: 25px;
+}
+.join-buttons-wrapper{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.btn-blue {
+    background-color: #00adb5;
+    color: #222831;
+}
+.btn-dark {
+    background-color: #393e46;
+    color: #eeeeee;
+}
+
+/* For Mobile Screen */
+@media screen and (max-width: 600px) {
+    #banner h1 {
+        width: 80%;
+    }
+    .join-buttons-wrapper{
+        flex-direction: column;
+    }
+}
+/* For Large Screen */
+@media screen and (min-width: 600px) {
+    #banner h1 {
+        font-size: 3em;
+        width: 50%;
+    }
+}

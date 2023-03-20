@@ -3,9 +3,11 @@ import './App.css';
 import Main from './layouts/Main';
 import FindARide from './pages/FindARide/FindARide';
 import Home from './pages/Home/Home';
+import LearnerSignUp from './pages/LearnerSignUp/LearnerSignUp';
 import Login from './pages/Login/Login';
 import NotFound from './pages/NotFound/NotFound';
 import OfferARide from './pages/OfferARide/OfferARide';
+import RiderSignUp from './pages/RiderSignUp/RiderSignUp';
 
 function App() {
 
@@ -30,6 +32,14 @@ function App() {
         {
           path: '/login',
           element: <Login />
+        },
+        {
+          path: '/rider-signup',
+          element: <RiderSignUp />
+        },
+        {
+          path: '/learner-signup',
+          element: <LearnerSignUp />
         }
       ],
     }

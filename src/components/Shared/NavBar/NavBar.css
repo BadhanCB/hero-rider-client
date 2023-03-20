@@ -24,7 +24,7 @@ nav li > a {
 nav li img {
     width: 2rem;
 }
-nav .logo-link {
+nav .logo-link, nav li > a, nav .login-link {
     display: flex;
     justify-content: center;
     align-items: center;

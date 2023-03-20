@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import "./NavBar.css";
 import logo from "../../../assets/logo/car-sharing.png";
 import { Link } from "react-router-dom";
-import { FiAlignCenter } from "react-icons/fi";
+import { FiAlignCenter, FiHelpCircle, FiHome, FiLogIn, FiSearch } from "react-icons/fi";
+import { FaCar } from "react-icons/fa";
 
 const NavBar = () => {
     const [isActive, setIsActive] = useState(false);
@@ -34,19 +35,32 @@ const NavBar = () => {
                 style={isActive ? activeStyle : undefined}
             >
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/">
+                        <FiHome />
+                        Home
+                    </Link>
                 </li>
                 <li>
-                    <Link to="/find-a-ride">Find A Ride</Link>
+                    <Link to="/find-a-ride">
+                        <FiSearch />
+                        Find A Ride
+                    </Link>
                 </li>
                 <li>
-                    <Link to="/offer-a-ride">Offer A Ride</Link>
+                    <Link to="/offer-a-ride">
+                        <FaCar />
+                        Offer A Ride
+                    </Link>
                 </li>
                 <li>
-                    <Link to="/help">Help</Link>
+                    <Link to="/help">
+                        <FiHelpCircle />
+                        Help
+                    </Link>
                 </li>
                 <li className="login">
                     <Link to="/login" className="login-link">
+                        <FiLogIn />
                         Login
                     </Link>
                 </li>
