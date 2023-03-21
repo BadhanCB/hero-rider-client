@@ -1,0 +1,58 @@
+.form-wrapper{
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.form-wrapper > h3{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.form-wrapper > h6{
+    font-weight: 200;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.form-wrapper > h5{
+    font-weight: 400;
+}
+.rider-form .input-fields-container{
+    display: grid;
+    gap: 1rem;
+}
+.rider-form label, .rider-form input, .rider-form select{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+}
+.confirm-btn{
+    color: #EEEEEE;
+    background-color: #00ADB5;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.link-btn{
+    color: darkblue;
+    cursor: pointer;
+}
+/* For Mobile Screen */
+@media screen and (max-width: 600px) {
+    .form-wrapper > p{
+        width: 100%;
+    }
+    .rider-form .input-fields-container{
+        grid-template-columns: repeat(1, 100%);
+    }
+}
+/* For Large Screen */
+@media screen and (min-width: 600px) {
+    .form-wrapper > p{
+        width: 70%;
+    }
+    .rider-form .input-fields-container{
+        grid-template-columns: repeat(2, 50%);
+    }
+}

@@ -1,9 +1,12 @@
 import React from 'react';
+import LearnerSignUpBanner from '../../components/LearnerSignUp/LearnerSignUpBanner/LearnerSignUpBanner';
+import LearnerSignUpForm from '../../components/LearnerSignUp/LearnerSignUpForm/LearnerSignUpForm';
 
 const LearnerSignUp = () => {
     return (
         <div>
-            <h1>Learner Sign Up</h1>
+            <LearnerSignUpBanner />
+            <LearnerSignUpForm />
         </div>
     );
 };

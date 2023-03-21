@@ -1,0 +1,39 @@
+.learner-form-wrapper{
+    background-color: #EEEEEE;
+    width: fit-content;
+    max-width: 90vw;
+    position: relative;
+    top: -25vh;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 1.5rem;
+    border-radius: 7px;
+}
+.learnerSignUpForm > h3{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.learnerSignUpForm > p{
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.learnerSignUpForm input, .learnerSignUpForm label{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 400;
+}
+.learnerSignUpForm input{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+.learnerSignUpForm input:focus{
+    outline: none;
+}
+.learnerSignUpForm .input-wrapper{
+    margin: 10px 0;
+}

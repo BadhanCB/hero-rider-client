@@ -1,0 +1,10 @@
+.learnerSignUpBanner{
+    width: 100%;
+    height: 50vh;
+}
+.learnerSignUpBanner > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(2px) brightness(0.8);
+}

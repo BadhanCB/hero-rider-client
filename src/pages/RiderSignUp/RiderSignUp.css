@@ -1,0 +1,17 @@
+#rider-sign-up{
+    display: grid;
+    min-height: calc(100vh - 70px);
+}
+
+/* For Mobile Screen */
+@media screen and (max-width: 600px) {
+    #rider-sign-up{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/* For Large Screen */
+@media screen and (min-width: 600px) {
+    #rider-sign-up{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

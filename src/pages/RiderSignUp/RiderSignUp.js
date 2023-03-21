@@ -1,9 +1,13 @@
 import React from 'react';
+import RiderForm from '../../components/RiderSignUp/RiderForm/RiderForm';
+import RiderFormSideBanner from '../../components/RiderSignUp/RiderFormSideBanner/RiderFormSideBanner';
+import './RiderSignUp.css';
 
 const RiderSignUp = () => {
     return (
-        <div>
-            <h1>Rider Sign Up</h1>
+        <div id='rider-sign-up'>
+            <RiderFormSideBanner />
+            <RiderForm />
         </div>
     );
 };
